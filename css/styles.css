@@ -78,10 +78,19 @@ body {
   text-align: center;
 }
 
+
 .icons a {
   color: #000;
   text-decoration: none;
   margin: 0 0.5em;
+}
+
+.icons a:first-child {
+  margin-left: 0;
+}
+
+.icons a:last-child {
+  margin-right: 0;
 }
 
 #commissions {
