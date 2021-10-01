@@ -25,6 +25,14 @@ body {
   height: 100%;
 }
 
+.logo-link {
+  opacity: 0;
+  display: inline-block;
+  position: fixed;
+  height: 4em;
+  width: 4em;
+}
+
 .nav.nav-pills {
   display: inline-flex;
   width: 100%;
@@ -44,6 +52,15 @@ body {
 }
 
 #bio {
+  display: block;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#commissions {
   display: block;
   text-align: center;
   position: absolute;
