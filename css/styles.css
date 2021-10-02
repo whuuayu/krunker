@@ -282,6 +282,10 @@ th:last-child, td:last-child {
   padding: 2em 3em;
 }
 
+#donate span {
+  line-height: 1.5em;
+}
+
 #donate-button {
   color: #fff;
   text-decoration: none;
