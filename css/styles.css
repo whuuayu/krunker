@@ -254,3 +254,18 @@ th:last-child, td:last-child {
 .public-css .icons {
   margin-top: 1em;
 }
+
+/*Donos*/
+
+#donate {
+  background-color: #000;
+  color: #fff;
+  padding: 2em 3em;
+}
+
+#donate-button {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin-top: 1em;
+}
