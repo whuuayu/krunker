@@ -248,6 +248,9 @@ th:last-child, td:last-child {
 #public-info {
   max-height: 100%;
   overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .public-css {
