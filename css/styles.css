@@ -234,6 +234,10 @@ th:last-child, td:last-child {
   overflow-y: scroll;
 }
 
+#public-title {
+  margin: 2em 0;
+}
+
 .public-css {
   display: block;
   margin-bottom: 2em;
