@@ -130,6 +130,7 @@ body {
   margin-top: 0;
   margin-bottom: 2em;
   direction: ltr;
+  line-height: 1.5em;
 }
 
 .package {
