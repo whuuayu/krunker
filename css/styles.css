@@ -216,6 +216,10 @@ th:last-child, td:last-child {
   text-shadow: 0 0 2px #000;
 }
 
+#groupbuy .icons {
+  margin-top: 2em;
+}
+
 /*Public CSS*/
 
 #public {
