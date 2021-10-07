@@ -159,7 +159,7 @@ body {
 .package {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2em;
+  margin-bottom: 4em;
   padding: 0 4em;
   max-width: calc(100% - 8em);
   flex-wrap: wrap;
