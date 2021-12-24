@@ -235,8 +235,8 @@ th:last-child, td:last-child {
 }
 
 #groupbuy-info * {
-  color: #fff;
-  text-shadow: 0 0 2px #000;
+    color: #B4FFDB;
+    text-shadow: 0 0 8px;
 }
 
 #groupbuy .icons {
