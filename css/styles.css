@@ -218,9 +218,9 @@ th:last-child, td:last-child {
   margin-bottom: 2em;
 }
 
-/*Groupbuys*/
+/*shop*/
 
-#groupbuy {
+#shop {
   display: flex;
   position: absolute;
   width: 100%;
@@ -229,18 +229,51 @@ th:last-child, td:last-child {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url(../assets/img/groupbuys/Frame\ 1SFTeaser.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #666;
 }
 
-#groupbuy-info * {
+#shop-info * {
   color: #fff;
   text-shadow: 0 0 2px #000;
 }
 
-#groupbuy .icons {
+#shop .icons {
   margin-top: 2em;
+}
+
+.shop-css {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+.shop-css img {
+  display: block;
+  width: 50%;
+  margin: auto !important;
+  margin-bottom: 2em !important;
+}
+
+#shop-entry {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+#shop-entry a {
+  text-decoration: none;
+  color: #000;
+  text-shadow: none !important;
+}
+
+#shop-info {
+  margin-bottom: 3em;
+  height: calc(100% - 3em) !important;
 }
 
 /*Public CSS*/
@@ -272,7 +305,7 @@ th:last-child, td:last-child {
   color: #fff;
 }
 
-#public-info {
+#public-info, #shop-info {
   max-height: 100%;
   overflow-y: scroll;
   display: flex;
@@ -280,13 +313,13 @@ th:last-child, td:last-child {
   justify-content: space-between;
 }
 
-.public-css {
+.public-css, .shop-css {
   display: block;
   margin-bottom: 2em;
   text-align: center;
 }
 
-.public-css img {
+.public-css img, .shop-css img {
   width: calc(50% - 4em);
   margin: 0 1em;
   box-shadow: 0px 0px 2px;
