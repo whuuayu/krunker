@@ -1,10 +1,10 @@
 @font-face {
-  font-family: Spartan;
-  src: url(https://fonts.gstatic.com/s/spartan/v3/l7gAbjR61M69yt8Z8w6FZf9WoBxdBrFbvl6JABQ.woff2);
+  font-family: Lexend;
+  src: url(https://raw.githubusercontent.com/googlefonts/lexend/main/fonts/deca/ttf/LexendDeca-Medium.ttf);
 }
 
 * {
-  font-family: Spartan;
+  font-family: Lexend;
 }
 
 *::-webkit-scrollbar {
@@ -346,9 +346,43 @@ th:last-child, td:last-child {
   line-height: 1.5em;
 }
 
-#donate-button {
+.donate-button {
   color: #fff;
   text-decoration: none;
   display: block;
   margin-top: 1em;
+}
+
+/*FAQ*/
+
+#faq-holder{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  max-height: 100%;
+  flex-direction: column;
+}
+
+#faq-holder {
+  background-color: #fff;
+}
+
+#faq-holder * {
+  color: #000;
+}
+
+#faq-title {
+  display: block;
+  margin: 2em 0;
+  width: 100%;
+  text-align: center;
+}
+
+#faq-notes {
+  text-align: left;
+  padding: 0 4em;
+  margin-top: 0;
+  margin-bottom: 2em;
+  direction: ltr;
+  line-height: 1.5em;
 }
